@@ -1,0 +1,45 @@
+fields:
+    firstname:
+        label: 'First Name'
+        span: left
+        required: 1
+        type: text
+    lastname:
+        label: 'Last Name'
+        span: right
+        required: 1
+        type: text
+    middlename:
+        label: 'Middle Name'
+        span: left
+        type: text
+    slug:
+        label: slug
+        span: auto
+        preset:
+            field: lastname
+            type: slug
+        type: text
+    bio:
+        label: Bio
+        size: large
+        span: full
+        type: richeditor
+    photo:
+        label: Photo
+        mode: image
+        imageWidth: '250'
+        imageHeight: '250'
+        span: auto
+        type: mediafinder
+    dateofbirth:
+        label: Birthday
+        mode: date
+        span: auto
+        type: datepicker
+    movies:
+        label: Movies
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation

@@ -1,0 +1,28 @@
+columns:
+    id:
+        label: id
+        type: number
+        sortable: true
+    fullname:
+        label: 'Full Name'
+        type: partial
+        path: ~/plugins/watchlearn/movies/models/actor/_concat.htm
+    dateofbirth:
+        label: dateofbirth
+        type: text
+        sortable: true
+    photo:
+        label: photo
+        type: partial
+        path: ~/plugins/watchlearn/movies/models/actor/_photo.htm
+    created_at:
+        label: created_at
+        type: datetime
+        sortable: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        sortable: true
+    slug:
+        label: slug
+        type: text

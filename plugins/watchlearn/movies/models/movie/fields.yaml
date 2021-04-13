@@ -1,0 +1,36 @@
+fields:
+    name:
+        label: Name
+        span: full
+        type: text
+    description:
+        label: 'Rich editor'
+        size: ''
+        span: full
+        type: richeditor
+    year:
+        label: Year
+        span: auto
+        type: text
+    actors:
+        label: Actors
+        namefrom: name
+        quickselect: true
+        descriptionFrom: description
+        span: auto
+        type: checkbox
+    extra:
+        label: Extra
+        prompt: 'Add new item'
+        span: full
+        type: repeater
+        form:
+            fields:
+                extra_name:
+                    label: Name
+                    span: auto
+                    type: text
+                extra_value:
+                    label: ExtraValue
+                    span: auto
+                    type: text
