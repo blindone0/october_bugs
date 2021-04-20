@@ -1,0 +1,11 @@
+plugin:
+    name: 'ihorr.logos::lang.plugin.name'
+    description: 'ihorr.logos::lang.plugin.description'
+    author: ihorr
+    icon: oc-icon-cube
+    homepage: ''
+navigation:
+    Logos:
+        label: Logos
+        url: ihorr/logos/logos
+        icon: icon-puzzle-piece

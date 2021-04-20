@@ -1,0 +1,11 @@
+plugin:
+    name: 'ihorr.values::lang.plugin.name'
+    description: 'ihorr.values::lang.plugin.description'
+    author: ihorr
+    icon: oc-icon-align-center
+    homepage: ''
+navigation:
+    values:
+        label: 'ihorr.values::lang.plugin.name'
+        url: ihorr/values/values
+        icon: icon-life-ring

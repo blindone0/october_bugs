@@ -1,0 +1,12 @@
+list: $/ihorr/logos/models/logo/columns.yaml
+modelClass: Ihorr\Logos\Models\Logo
+title: Logos
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ihorr/logos/logos/update/:id'

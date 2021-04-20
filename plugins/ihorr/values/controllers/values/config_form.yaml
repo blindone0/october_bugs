@@ -1,0 +1,10 @@
+name: Values
+form: $/ihorr/values/models/value/fields.yaml
+modelClass: Ihorr\Values\Models\Value
+defaultRedirect: ihorr/values/values
+create:
+    redirect: 'ihorr/values/values/update/:id'
+    redirectClose: ihorr/values/values
+update:
+    redirect: ihorr/values/values
+    redirectClose: ihorr/values/values

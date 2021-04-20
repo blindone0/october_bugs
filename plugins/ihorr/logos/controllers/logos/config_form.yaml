@@ -1,0 +1,10 @@
+name: Logos
+form: $/ihorr/logos/models/logo/fields.yaml
+modelClass: Ihorr\Logos\Models\Logo
+defaultRedirect: ihorr/logos/logos
+create:
+    redirect: 'ihorr/logos/logos/update/:id'
+    redirectClose: ihorr/logos/logos
+update:
+    redirect: ihorr/logos/logos
+    redirectClose: ihorr/logos/logos

@@ -177,7 +177,7 @@
         spaceBetween: 40
       },
       480: {
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 60
       },
       640: {
@@ -266,7 +266,7 @@
       },
 
       1200: {
-        slidesPerView: 3,
+        slidesPerView: 1,
       }
     }
   });

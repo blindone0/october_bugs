@@ -1,0 +1,11 @@
+plugin:
+    name: 'ihorr.prices::lang.plugin.name'
+    description: 'ihorr.prices::lang.plugin.description'
+    author: ihorradetskyi
+    icon: oc-icon-ambulance
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Prices
+        url: ihorr/prices/prices
+        icon: icon-bank
