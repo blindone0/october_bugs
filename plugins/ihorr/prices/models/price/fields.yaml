@@ -1,0 +1,39 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    img:
+        label: Img
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        span: auto
+        type: mediafinder
+    desc:
+        label: Desc
+        prompt: 'Add new item'
+        span: auto
+        type: repeater
+        form:
+            fields:
+                row:
+                    label: Row
+                    span: auto
+                    type: text
+    link:
+        label: Link
+        span: auto
+        type: text
+    is_iconed:
+        label: Featered
+        span: auto
+        type: checkbox
+    price:
+        label: Price
+        span: auto
+        type: number
+    color:
+        label: 'Color picker'
+        span: auto
+        type: colorpicker

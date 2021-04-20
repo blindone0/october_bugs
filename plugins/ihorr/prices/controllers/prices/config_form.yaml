@@ -1,0 +1,10 @@
+name: Prices
+form: $/ihorr/prices/models/price/fields.yaml
+modelClass: Ihorr\Prices\Models\Price
+defaultRedirect: ihorr/prices/prices
+create:
+    redirect: 'ihorr/prices/prices/update/:id'
+    redirectClose: ihorr/prices/prices
+update:
+    redirect: ihorr/prices/prices
+    redirectClose: ihorr/prices/prices

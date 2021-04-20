@@ -1,0 +1,12 @@
+list: $/ihorr/prices/models/price/columns.yaml
+modelClass: Ihorr\Prices\Models\Price
+title: Prices
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ihorr/prices/prices/update/:id'

@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table ihorr_logos_logos'
+    - builder_table_create_ihorr_logos_logos.php
+1.0.3:
+    - 'Updated table ihorr_logos_logos'
+    - builder_table_update_ihorr_logos_logos.php

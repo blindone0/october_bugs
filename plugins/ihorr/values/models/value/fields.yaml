@@ -1,0 +1,19 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    subname:
+        label: Subname
+        span: auto
+        type: text
+    text:
+        label: 'Rich editor'
+        size: ''
+        span: auto
+        type: richeditor
+    img:
+        label: Img
+        mode: image
+        span: auto
+        type: mediafinder

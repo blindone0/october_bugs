@@ -1,0 +1,12 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    logo:
+        label: 'Logo pic'
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        span: auto
+        type: mediafinder
